@@ -1,0 +1,8 @@
+El problema que presenta ASCII es que no puede codificar más que 128 símbolos, por lo tanto, no son suficientes 8 bits para codificar todos los alfabetos y escrituras del mundo.
+
+Como solución a estos problemas, desde 1991 se ha acordado internacionalmente utilizar la norma Unicode, que es una gran tabla, que en la actualidad asigna un código a cada uno de los más de cincuenta mil símbolos, los cuales abarcan todos los alfabetos europeos, ideogramas chinos, japoneses, coreanos, muchas otras formas de escritura, y más de un millar de símbolos locales.
+
+El punycode es un sistema de codificación estándar desarrollado para su uso en los nombres de dominio internacionalizados. Este se encarga de codificar y representar los caracteres unicode en la resolución de los hostnames, para hacerlo compatible en un formato de código ASCII.
+
+Esto significa que, por ejemplo, un nombre de dominio se puede componer por una cadena unicode de caracteres chinos y, gracias al punycode, estos se codifican en un formato de caracteres referenciables dentro del código estándar americano.
+Como el formato unicode representa más que un conjunto de caracteres internacionales, el punycode se puede emplear incluso para permitir que los nombres de dominio utilicen emojis.
