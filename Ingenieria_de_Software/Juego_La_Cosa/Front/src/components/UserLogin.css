@@ -1,0 +1,40 @@
+.name-field {
+    width: 30%;
+    min-width: 150px;
+    padding: 0.5rem 0.5rem;
+}
+    
+.error {
+    color: #c00;
+    font-size: 0.8em;
+}
+
+.error-form {
+    color: tomato;
+    font-size: 0.7em;
+    margin-top: -5px;
+}
+
+/* Estilos para el fondo de la interfaz de inicio de sesión */
+.user-login-interface {
+    background: url('../assets/stayAway.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%; /* Se ajusta al ancho de la pantalla */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.user-login-form {
+    position: absolute; /* Cambia a posición absoluta para centrar */
+    width: 300px;
+    top: 31%; /* Alinea la parte superior del formulario al centro vertical */
+    left: 50.3%; /* Alinea la izquierda del formulario al centro horizontal */
+    transform: translate(-50%, -50%); /* Centra el formulario */
+    max-width: 400px;
+    padding: 30px;
+}

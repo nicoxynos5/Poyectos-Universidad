@@ -1,0 +1,54 @@
+#root {
+  min-width: none;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Estilos para el mensaje de bienvenida */
+.welcome {
+  margin: -20%;
+  flex: 1; /* Ocupa el espacio disponible de manera equitativa */
+  font-size: 2.5vw; /* Tamaño de fuente en relación al ancho de la pantalla */
+  position: relative;
+  top: -28%;
+}
+
+.leave-button {
+  position: absolute;
+  bottom: 10%;
+  left: 47.7%;
+}
+
+/* Estilos para el contenedor principal */
+.join-create {
+  background: url("./assets/stayAway.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; /* Tamaño de alto de la pantalla completa */
+  width: 100%; /* Tamaño de ancho de la pantalla completa */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra los elementos verticalmente */
+}
+
+/* Estilos para los componentes de unirse y crear partida */
+.join-game, .wellcome,.create-game {
+  flex: 1; /* Ocupa el espacio disponible de manera equitativa */
+  padding: 2%; /* Espacio de relleno interno */
+  text-align: center; /* Centra el contenido de manera horizontal */
+}

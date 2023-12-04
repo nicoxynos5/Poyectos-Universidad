@@ -1,0 +1,45 @@
+.lobby-interface {
+    background: url("../assets/stayAway.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; /* Tamaño de alto de la pantalla completa */
+    width: 100%; /* Tamaño de ancho de la pantalla completa */
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.title-name {
+    position: absolute;
+    top: 15%;
+}
+
+.label-list {
+    margin: 2%;
+    padding: 1%;
+    border-radius: 8px;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+}
+
+.player_list {
+    background-color: rgb(1, 63, 25);
+    border-radius: 8px;
+    width: auto;
+    padding: 10px;
+}
+
+.in-lobby-button {
+    position: absolute;
+    bottom: 18%;
+}
+
+.lobby-chat {
+    position: absolute;
+    left: 13%;
+}

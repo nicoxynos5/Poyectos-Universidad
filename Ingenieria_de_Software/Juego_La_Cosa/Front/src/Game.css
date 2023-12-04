@@ -1,0 +1,198 @@
+body {
+    background-color: rgb(8, 10, 9);
+}
+
+.Game h2 {
+    text-align: center;
+}
+
+.game-name {
+    margin-top: 0%;
+    width: 100%;
+    height: 15px;
+    font: bold 130% cursive;
+    text-align: center;
+    font-size: xx-large;
+    position: relative;
+    top: -40px;
+}
+
+#container {
+    padding: 62px;
+    font-family: Arial, sans-serif;
+    background-image: url('./assets/gameBackground3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.deck-players {
+    margin-top: -5%;
+    display: flex;
+    width: 200vh;
+    justify-content: space-between;
+}
+
+/* Estilo inicial del elemento */
+.mi-elemento {
+    opacity: 1;
+    /* Opacidad completa (100%) por defecto */
+    transition: opacity 0.3s ease-in-out;
+    /* Transición suave de 0.3 segundos */
+}
+
+/* Estilo cuando el mouse está sobre el elemento */
+.mi-elemento:hover {
+    opacity: 0.7;
+    /* Reduce la opacidad al 70% al hacer hover */
+}
+
+.turn {
+    margin: auto;
+    max-width: 300px;
+    height: 30px;
+    text-align: auto;
+    border-radius: 4px;
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    top: 15px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.players-right {
+    width: 22%;
+    height: 54%;
+    float: right;
+    position: relative;
+}
+
+.players-left {
+    width: 22%;
+    height: 54%;
+    float: left;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+}
+
+.title-text {
+    height: 50px;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+}
+
+.title-text {
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.chat {
+    float: right;
+    position: relative;
+    top: 20px;
+    width: 26%;
+    height: 40%;
+    /* border: 2px solid #f50000; */
+}
+
+.system {
+    float: right;
+    position: relative;
+    top: 20px;
+    width: 26%;
+    height: 40%;
+    /* border: 2px solid #f50000; */
+}
+
+.player-hand {
+    float: left;
+    width: 72%;
+    height: 40%;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.hand-buttons {
+    position: relative;
+    top: -15px;
+}
+
+#content {
+    float: left;
+    width: 56%;
+    height: 54%;
+    opacity: 1;
+    /* Opacidad completa (100%) por defecto */
+    transition: opacity 0.3s ease-in-out;
+    /* Transición suave de 0.3 segundos */
+    position: relative;
+    top: -75px;
+}
+
+.content:hover {
+    opacity: 0.3;
+    /* Reduce la opacidad al 70% al hacer hover */
+}
+
+.deck {
+    height: 240px;
+    width: 170px;
+    border-radius: 10px; 
+    position: relative;
+}
+
+.doorOpen{
+    background-color: rgba(77, 247, 136, 0.5);
+    margin: 2%;
+    height: 28px;
+    width: 230px;
+    text-align: left;
+}
+
+.winners_modal{
+    width: 20%;
+    height: 21%;
+    border-radius: 10px;
+    border: none;
+}
+
+.dead_modal {
+    width: 20%;
+    height: 18%;
+    border-radius: 10px;
+    border: none;
+} 
+
+.end-button {
+    background-color: rgb(5, 73, 51);
+}
